@@ -1,11 +1,25 @@
-import React from 'react';
+import React from "react";
 
-function UserProfile(props) {
+function UserProfile({ name, age, bio }) {
+  const profileStyle = {
+    border: "1px solid #ccc",
+    borderRadius: "8px",
+    padding: "15px",
+    margin: "20px auto",
+    width: "250px",
+    textAlign: "center",
+    boxShadow: "0px 0px 5px rgba(0,0,0,0.1)",
+  };
+
+  const nameStyle = { fontSize: "20px", fontWeight: "bold" };
+  const ageStyle = { color: "gray" };
+  const bioStyle = { fontStyle: "italic" };
+
   return (
-    <div style={{ border: '1px solid gray', padding: '10px', margin: '10px', borderRadius: '8px' }}>
-      <h2 style={{ color: 'blue' }}>{props.name}</h2>
-      <p>Age: <span style={{ fontWeight: 'bold' }}>{props.age}</span></p>
-      <p>Bio: {props.bio}</p>
+    <div style={profileStyle}>
+      <h2 style={nameStyle}>{name}</h2>
+      <p style={ageStyle}>Age: {age}</p>
+      <p style={bioStyle}>{bio}</p>
     </div>
   );
 }

@@ -1,9 +1,19 @@
-import React from 'react';
+import React from "react";
 
 function Footer() {
+  const footerStyle = {
+    backgroundColor: "#222",
+    color: "white",
+    textAlign: "center",
+    padding: "10px",
+    position: "fixed",
+    bottom: 0,
+    width: "100%",
+  };
+
   return (
-    <footer style={{ backgroundColor: '#333', color: 'white', textAlign: 'center', padding: '10px' }}>
-      <p>© 2025 My Favorite Cities. All rights reserved.</p>
+    <footer style={footerStyle}>
+      <p>&copy; 2025 My React App</p>
     </footer>
   );
 }

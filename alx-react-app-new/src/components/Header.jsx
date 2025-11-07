@@ -1,9 +1,16 @@
-import React from 'react';
+import React from "react";
 
 function Header() {
+  const headerStyle = {
+    backgroundColor: "#4CAF50",
+    color: "white",
+    padding: "20px",
+    textAlign: "center",
+  };
+
   return (
-    <header style={{ backgroundColor: 'navy', color: 'white', textAlign: 'center', padding: '10px' }}>
-      <h1>My Favorite Cities</h1>
+    <header style={headerStyle}>
+      <h1>Welcome to My React App</h1>
     </header>
   );
 }
