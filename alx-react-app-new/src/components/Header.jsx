@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
 function Header() {
   return (
     <header style={{ backgroundColor: 'navy', color: 'white', textAlign: 'center', padding: '10px' }}>
-      <h1>Welcome to My React App</h1>
+      <h1>My Favorite Cities</h1>
     </header>
   );
 }
