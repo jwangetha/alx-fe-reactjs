@@ -9,7 +9,7 @@ function MainContent() {
         textAlign: "center",
       }}
     >
-      <p>Welcome to my favorite cities app!</p>
+      <p>I love to visit New York, Paris, and Tokyo.</p>
     </main>
   );
 }
