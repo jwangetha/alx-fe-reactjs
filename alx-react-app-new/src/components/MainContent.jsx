@@ -4,12 +4,12 @@ function MainContent() {
   return (
     <main
       style={{
+        backgroundColor: "#f0f0f0",
         padding: "20px",
         textAlign: "center",
-        backgroundColor: "#f9f9f9",
       }}
     >
-      <p>This is the main content section.</p>
+      <p>Welcome to my favorite cities app!</p>
     </main>
   );
 }

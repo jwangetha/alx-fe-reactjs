@@ -4,16 +4,12 @@ function Footer() {
   return (
     <footer
       style={{
-        backgroundColor: "#222",
-        color: "white",
+        backgroundColor: "lightgray",
         textAlign: "center",
         padding: "10px",
-        position: "fixed",
-        bottom: 0,
-        width: "100%",
       }}
     >
-      <p>&copy; 2025 My React App</p>
+      <p>&copy; 2025 My Favorite Cities. All rights reserved.</p>
     </footer>
   );
 }
