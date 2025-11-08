@@ -3,6 +3,8 @@ import Header from "./Header";
 import MainContent from "./MainContent";
 import Footer from "./Footer";
 import UserProfile from "./UserProfile";
+import Counter from './components/Counter';
+
 
 function App() {
   return (
@@ -11,6 +13,18 @@ function App() {
       <MainContent />
       <UserProfile name="James" age={30} bio="A passionate React developer." />
       <Footer />
+      function App() {
+  return (
+    <div>
+      <Header />
+      <MainContent />
+      <UserProfile name="James" age={30} bio="A passionate React developer." />
+      <Counter />  {/* Add Counter here */}
+      <Footer />
+    </div>
+  );
+}
+
     </div>
   );
 }
