@@ -1,9 +1,9 @@
 import React from "react";
-import Header from "./Header";
-import MainContent from "./MainContent";
-import UserProfile from "./UserProfile";
-import Counter from "./Counter";
-import Footer from "./Footer";
+import Header from "./components/Header";
+import MainContent from "./components/MainContent";
+import UserProfile from "./components/UserProfile";
+import Counter from "./components/Counter";
+import Footer from "./components/Footer";
 
 function App() {
   return (
