@@ -1,9 +1,8 @@
 // src/ProfilePage.jsx
-import React from "react";
-import UserInfo from "./UserInfo";
+import UserInfo from './UserInfo';
 
 function ProfilePage() {
-  return <UserInfo />; // Remove userData prop
+  return <UserInfo />;
 }
 
 export default ProfilePage;
